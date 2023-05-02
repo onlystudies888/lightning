@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Lightning Distance</title>
+</head>
+<body >
+    <!-- <img src="pexels-philippe-donn-1114690.jpg" alt=""> -->
+    <h1>Lightning Distance Calculator</h1>
+    <h6 id="message">Press Start When you see the flash</h6>
+    <h6 id="message1">Press Stop When you hear the thunder</h6>
+    <h6 id="message2">Press Reset to calculate again</h6>
+    <div class="stopwatch-container">
+        <div class="stopwatch">
+            <span id="minutes">00</span>:<span id="seconds">00</span>:<span id="milliseconds">00</span>
+        </div>
+        <div class="buttons">
+            <button type="button" id="start" class="btn btn-success">Start</button>
+            <button type="button" id="stop" class="btn btn-danger">Stop</button>
+            <button type="button" id="reset" class="btn btn-primary">Reset</button> 
+        </div>
+        <div class="history">
+            <ul class="data">
+                <li id="info"></li>
+            </ul>
+        </div>
+        <div class="words" id="result1">
+            <span class="text">The distance between you and the lightning is approx.</span>
+            <span id="result" class="text">0 kms</span>
+            <span class="text">kms</span>
+        </div>
+        <div>
+            <span class="text1">*Sometimes lightning may be seen but there is no thunder heard. This is either because thunder is rarely heard more than 20 km away or because the atmospheric conditions lead to sound bending upwards and away from the surface.</span><br>
+            <span class="text1"><strong>*Disclaimer. The accuracy of the distance might be around 300meters off. This is just for fun. Please don't use it for real life purposes</strong></span>
+        </div> 
+           
+        
+    </div>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> -->
+    <script src="index.js"></script>
+</body>
+</html>
+  
